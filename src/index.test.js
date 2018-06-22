@@ -94,7 +94,6 @@ describe('The public api of redux-saga-fetch', () => {
   ]
 
   testCases.forEach((testCase, testIndex) => {
-    console.log(store.getState())
     describe(`performing test case ${testIndex}`, () => {
       beforeAll(() => {
         store.dispatch(
